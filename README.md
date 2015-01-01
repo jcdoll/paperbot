@@ -1,9 +1,9 @@
 ## paperbot
 Submit links, download papers.
 
-Intended for self-hosting and personal use on a network.
+Intended for personal use on a private network. Allows a single authorized user to easily access papers from multiple computers without repeated authentication. Sharing of documents with unauthorized users is strictly prohibited by most journals.
 
-Requires proxy-based access to scientific journals, commonly provided through an employer or academic institution.
+Assumes proxy-based access to scientific journals, commonly provided through an employer or academic institution.
 
 ## status
 Currently a non-functional side project.
