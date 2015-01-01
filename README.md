@@ -8,10 +8,15 @@ Requires proxy-based access to scientific journals, commonly provided through an
 ## status
 Currently a non-functional side project.
 
-## instruction
+## run instructions
 1. Install VirtualBox: virtualbox.org/wiki/Downloads
 2. Install Vagrant: vagrantup.com/downloads.html
 3. Run 'vagrant up' from your favorite shell. Wait a few minutes.
 4. Access paperbot @ localhost:5000.
 
 Built on Flask, Docker and Vagrant for portability.
+
+## dev tips
+After vagrant up && vagrant ssh...
+1. Container terminal: docker exec -it paperbot bash
+2. Monitoring results: docker attach paperbot
