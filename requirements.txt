@@ -2,3 +2,4 @@ gunicorn==19.1.1
 Flask==0.10.1
 Jinja2==2.7.2
 requests==2.5.1
+mechanize==0.2.5

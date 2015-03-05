@@ -17,6 +17,6 @@ Currently a non-functional side project.
 Built on Flask, Docker and Vagrant for portability.
 
 ## dev tips
-After vagrant up && vagrant ssh...
-1. Container terminal: docker exec -it paperbot bash
-2. Monitoring results: docker attach paperbot
+1. vagrant up && vagrant ssh
+2. Container terminal: docker exec -it paperbot bash
+3. Monitoring results: docker attach paperbot
